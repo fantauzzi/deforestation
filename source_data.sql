@@ -18,7 +18,7 @@ create table land_area (
 	country_code varchar(50),
 	country_name varchar(50),
 	year int2,
-	forest_area_sqkm float8
+	total_area_sq_mi float8
 );
 
 -- \copy land_area from 'land_area.csv' delimiter ',' csv header
